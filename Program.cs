@@ -14,3 +14,11 @@ Smartphone iphone = new Iphone(numero: "998308900", modelo: "Modelo X", imei: "2
 iphone.Ligar();
 iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Subway Surf");
+
+Console.WriteLine("\n");
+
+Console.WriteLine("Smartphone Android:");
+Smartphone android = new Android(numero: "998354900", modelo: "Modelo S22", imei: "33333333", memoria: 120);
+android.Ligar();
+android.ReceberLigacao();
+android.InstalarAplicativo("Red Dead 2 Emulador");
