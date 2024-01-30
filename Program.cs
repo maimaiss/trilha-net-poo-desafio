@@ -1,5 +1,4 @@
-﻿using System.ComponentModel;
-using DesafioPOO.Models;
+﻿using DesafioPOO.Models;
 
 Console.WriteLine("Smartphone Nokia:");
 Smartphone nokia = new Nokia(numero: "995218026", modelo: "Modelo 1", imei: "11111111", memoria: 65);
